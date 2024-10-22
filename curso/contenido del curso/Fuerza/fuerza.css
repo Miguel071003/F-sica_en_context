@@ -1,0 +1,36 @@
+body {
+    background: #9fbcc8 ;
+}
+
+.presentación {
+    background: #f7f9f9 ;
+    width: 90%;
+    height: 90%;
+    margin: 2.5%;
+}
+#result {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #76d7c8;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.contenedor-botones {
+    text-align: center;
+    margin-top: 20px;
+}

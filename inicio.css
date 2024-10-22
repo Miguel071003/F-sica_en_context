@@ -1,0 +1,75 @@
+/* Reset básico para márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* color6 */
+    color: #044b74; /* color3 */
+}
+
+/* Contenedor principal */
+.presentación {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para el título */
+.titulo {
+    font-size: 2.5rem;
+    margin: 20px 0;
+    color: #044b74; /* color3 */
+}
+
+/* Contenedor de la imagen */
+.imagen-container {
+    max-width: 700px; /* Limitar el ancho del contenedor de la imagen */
+    margin: 0 auto; /* Centrar el contenedor */
+}
+
+/* Estilo para la imagen de fondo */
+.imagen-container img {
+    width: 100%; /* La imagen ocupará el 100% del ancho del contenedor */
+    height: auto; /* Mantener la proporción de la imagen */
+    max-height: 700px; /* Limitar la altura de la imagen a 700px */
+    object-fit: cover; /* Mantener la proporción de la imagen */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+
+/* Contenedor de botones */
+.contenedor-botones {
+    margin: 20px 0;
+}
+
+/* Estilo para los botones */
+.boton {
+    display: inline-block;
+    background-color: #f6ab39; /* color1 */
+    color: #ffffff; /* color6 */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.boton:hover {
+    background-color: #57849c; /* color4 */
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 2rem; /* Ajustar tamaño del título en pantallas pequeñas */
+    }
+
+    .imagen-container img {
+        max-height: 400px; /* Ajustar altura de la imagen en pantallas pequeñas */
+    }
+}

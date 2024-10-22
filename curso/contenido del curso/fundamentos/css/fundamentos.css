@@ -1,0 +1,80 @@
+/* Reset básico para márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* color6 */
+    color: #044b74; /* color3 */
+}
+
+/* Contenedor principal */
+.presentación {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para títulos y párrafos */
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/* Estilos para listas */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li strong {
+    color: #f6ab39; /* color1 */
+}
+
+/* Estilos para el contenedor de botones */
+.contenedor-botones {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Estilo para los botones */
+.boton {
+    display: inline-block;
+    background-color: #f6ab39; /* color1 */
+    color: #ffffff; /* color6 */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+.boton:hover {
+    background-color: #57849c; /* color4 */
+}
+
+/* Estilos responsivos */
+@media (min-width: 768px) {
+    .contenedor-botones {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .boton {
+        margin: 10px;
+    }
+}

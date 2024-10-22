@@ -1,0 +1,142 @@
+/* Reset básico para márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* color6 */
+    color: #044b74; /* color3 */
+}
+/* Contenedor principal */
+.presentación {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para títulos y párrafos */
+h1, h2, h3, h4 {
+    color: #f6ab39; /* color1 */
+}
+strong {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+p {
+    line-height: 1.6;
+    margin: 10px 20px;
+    color: #57849c; /* color4 */
+}
+
+/* Estilos para listas */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+ul li strong {
+    color: #f6ab39; /* color1 */
+}
+
+/* Estilos para el contenedor de imágenes */
+.imagen-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: 700px; /* Ancho fijo para pantallas grandes */
+}
+
+/* Estilos para el contenedor de preguntas */
+.contenido {
+    margin: 20px;
+    padding: 20px;
+    background: #f5cf89; /* color2 */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.espacio_pregunta {
+    margin: 20px 0;
+}
+
+/* Estilos para los botones */
+.boton {
+    display: inline-block;
+    background-color: #f6ab39; /* color1 */
+    color: #57849c; /* color6 */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+.boton:hover {
+    background-color: #57849c; /* color4 */
+}
+
+/* Estilos responsivos */
+@media (min-width: 768px) {
+    .boton {
+        margin: 10px;
+    }
+
+    img {
+        width: 100%; /* Imágenes ocupan el 100% del ancho en pantallas pequeñas */
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    p {
+        margin: 10px 10px;
+    }
+
+    .contenido {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .boton {
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.2em;
+    }
+
+    h2, h3, h4 {
+        font-size: 1em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+}
+
+#result {
+    margin-top: 10px;
+    font-weight: bold;
+}

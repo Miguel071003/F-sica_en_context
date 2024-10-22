@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movimiento</title>
+    <link rel="stylesheet" href="css/movimiento.css">
+</head>
+<body>
+    <!--tema-->
+    <h1>Movimiento: Una Parte de Nuestro Mundo</h1>
+    <p>El movimiento está presente en todo lo que nos rodea: lo ves en la moto que recorre la avenida, en el perro que corre por el parque, o cuando tú mismo caminas hacia la escuela o el trabajo. Pero, ¿qué significa exactamente "movimiento"? Vamos a explorarlo</p>
+    <h2>¿Qué es el movimiento?</h2>
+    <p>En términos de la física, el movimiento se define como el cambio de posición de un objeto en un intervalo de tiempo. Esto significa que cuando un objeto se desplaza de un lugar a otro, está en movimiento. Por ejemplo, imagina un pato que a las ocho de la mañana está durmiendo en el lago. Si cinco minutos después comienza a caminar hacia la orilla, ha realizado un movimiento porque ha cambiado su posición.</p>
+    
+    <h2>Movimiento y Reposo</h2>
+    <p>Por otro lado, si un objeto no cambia de lugar, se dice que está en reposo. Por ejemplo, un coche que permanece quieto en el estacionamiento está en reposo. Cuando el coche arranca y comienza a moverse por la calle, cambia su posición porque ya no está donde estaba estacionado, sino que se ha trasladado a otro lugar. Este cambio de lugar es lo que llamamos movimiento.</p>
+
+    <h2>Factores que Afectan el Movimiento</h2>
+    <p>Varios factores pueden influir en el movimiento de un objeto:</p>
+    <ul>
+        <li><strong>Velocidad:</strong> Es la rapidez con la que un objeto cambia su posición. Si un coche va a 60 km/h, está moviéndose a una velocidad específica.</li>
+        <li><strong>Aceleración:</strong> Es el cambio en la velocidad de un objeto. Si el coche acelera de 0 a 60 km/h rápidamente, está aumentando su velocidad.</li>
+        <li><strong>Fuerza:</strong> Como mencionamos antes, la fuerza es la potencia que se necesita para mover un objeto. Cuanta más fuerza se aplique, mayor será el movimiento. Por ejemplo, empujar un carro lleno de compras requiere más fuerza que empujar uno vacío.</li>
+    </ul>
+
+    <h2>La Importancia del Movimiento en Nuestra Vida Diaria</h2>
+    <p>El movimiento es esencial en nuestras vidas. Nos permite desplazarnos, jugar y explorar nuestro entorno. Sin movimiento, no podríamos realizar actividades cotidianas, como caminar, correr, conducir o incluso jugar con un balón. Además, en el mundo de la ciencia y la tecnología, el estudio del movimiento es crucial para desarrollar vehículos, máquinas y muchos otros dispositivos que hacen nuestra vida más fácil y eficiente.</p>
+
+    <!--conclusión-->
+
+    <p>En resumen, el movimiento es una parte fundamental de la física y de nuestras vidas. Nos ayuda a entender cómo y por qué los objetos cambian de posición y cómo interactuamos con el mundo que nos rodea. Así que la próxima vez que veas a un coche en la carretera o a un pájaro volando, recuerda que estás presenciando el maravilloso fenómeno del movimiento en acción.</p>
+
+    <!--dinamica-->
+
+    <h3>Movimiento O Reposo</h3>
+        <h4>Explicación rápida:
+            <ul>
+                <li>Movimiento: Cuando algo cambia de lugar en un tiempo determinado.</li>
+                <li>Reposo: Cuando algo permanece en el mismo lugar sin moverse.</li>
+            </ul>
+        </h4>
+    
+    <!--preguntas-->
+
+    <p>Ahora responde las siguientes preguntas</p>
+    <section id="p0" class="espacio_pregunta">
+        <h3>   Un gato está durmiendo en el sofá durante 10 minutos. ¿Está en movimiento o en reposo?  </h3>
+        <label onclick="respuesta(0, this)">
+            <input type="radio" name="pregunta0" value="R"> Reposo
+        </label>
+        <label onclick="respuesta(0, this)">
+            <input type="radio" name="pregunta0" value="M"> Movimiento
+        </label>
+    </section>
+
+    <section id="p1" class="espacio_pregunta">
+        <h3>   Una pelota es pateada por un niño y rueda por el patio. ¿Está en movimiento o en reposo? </h3>
+        <label onclick="respuesta(1, this)">
+            <input type="radio" name="pregunta1" value="R"> Reposo
+        </label>
+        <label onclick="respuesta(1, this)">
+            <input type="radio" name="pregunta1" value="M"> Movimiento
+        </label>
+    </section>
+
+    <section id="p2" class="espacio_pregunta">
+        <h3>   Un carro está estacionado en el mismo lugar por 2 horas. ¿Está en movimiento o en reposo? </h3>
+        <label onclick="respuesta(2, this)">
+            <input type="radio" name="pregunta2" value="R"> Reposo
+        </label>
+        <label onclick="respuesta(2, this)">
+            <input type="radio" name="pregunta2" value="M"> Movimiento
+        </label>
+    </section>
+
+    <section id="p3" class="espacio_pregunta">
+        <h3>   Una hoja cae lentamente de un árbol por el viento. ¿Movimiento o reposo? </h3>
+        <label onclick="respuesta(3, this)">
+            <input type="radio" name="pregunta3" value="R">  Reposo
+        </label>
+        <label onclick="respuesta(3, this)">
+            <input type="radio" name="pregunta3" value="M">  Movimiento
+        </label>
+    </section>
+
+    <section id="p4" class="espacio_pregunta">
+        <h3>   Una bicicleta se queda quieta en la esquina después de que su dueño la estaciona. ¿Está en movimiento o reposo? </h3>
+        <label onclick="respuesta(4, this)">
+            <input type="radio" name="pregunta4" value="R"> Reposo
+        </label>
+        <label onclick="respuesta(4, this)">
+            <input type="radio" name="pregunta4" value="M"> Movimiento
+        </label>
+    </section>
+        <button onclick="corregir()">Corregir</button>
+        <div id="resultado"></div>
+    </div>
+
+    <script src="scrip/movimiento.js"></script>
+
+    <div class="contenedor-botones">
+    <a href="fuerza.html" class="boton"><</a>
+    <a href="materia.html" class="boton">></a>
+    <a href="fundamentos.html" class="boton">Regresar</a>
+    </div>
+</body>
+</html>

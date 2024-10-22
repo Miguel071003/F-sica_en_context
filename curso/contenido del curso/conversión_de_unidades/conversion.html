@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversión</title>
+    <link rel="stylesheet" href="conversión.css">
+</head>
+<body>
+    <div class="presentación">
+        <!--tema-->
+        <h1>Conversión de Unidades.</h1>
+        <p>Imagina que el mundo es como un mercado donde hay muchos tipos de frutas. En cada región, la gente tiene sus propios nombres para las frutas y las mide de diferentes maneras. Por ejemplo, en algunos lugares las venden por kilos y en otros por libras. Eso es lo que sucede con las unidades de medida en la ciencia: cada región o campo científico a veces usa su propio "sistema de medición". Sin embargo, para hacer que todos se entiendan sin importar de dónde vengan, la ciencia ha decidido que es mejor usar un sistema único: el Sistema Internacional de Unidades (SI).</p>
+
+        <p>Entonces, si tienes una unidad de otro sistema (como medir en pies en lugar de metros), debes convertir esa medida al sistema que todos entienden, el Sistema Internacional. Esto es como si quisieras vender frutas en otro país y tuvieras que cambiar el nombre o el peso de las frutas al sistema de ese lugar para que te entiendan.</p> 
+
+        <p>A continuación, te explico algunos conceptos importantes sobre estas unidades de medida junto tablas con algunas conversiones más comunes, usando ejemplos que simplifiquen cada uno:</p>
+        <h2>Explicación de conceptos con Analogías:</h2>
+        <!--tablas de conversiones con su explicación-->
+        <ol>
+            <li>Longitud
+                <ul>
+                    <li>Es como medir qué tan largo es algo, como si midieras una cuerda o el tamaño de una mesa. Las unidades comunes son el metro, que es como una regla grande, o el pie, que es como medir usando pasos. </li>
+                    <img src="imganes1/longitud.jfif" alt="tabla de conversiones" title="tabla de conversiones">              
+                </ul>
+            </li>
+            <li>Tiempo
+                <ul>
+                    <li>Mide cuántos "tics" de un reloj pasan mientras ocurre algo. El segundo es una pequeña parte de tiempo, como cuando haces un parpadeo. Si sumas muchos segundos, obtienes minutos y horas, como cuando ves pasar el tiempo en una película. </li>
+                    <img src="imganes1/tiempo.jfif" alt="tabla de conversiones" title="tabla de conversiones">
+                </ul>
+            </li>
+            <li>Masa
+                <ul>
+                    <li>Es la cantidad de "cosas" (materia) que hay en un objeto. Es como pensar en cuánto pesa una bolsa de manzanas. El kilogramo es una unidad común, como una bolsa de arroz grande, y la onza es una cantidad más pequeña, como una cucharada de algo. </li>
+                    <img src="imganes1/masa.jfif" alt="tabla de conversiones" title="tabla de conversiones">
+                </ul>
+            </li>
+            <li>Área
+                <ul>
+                    <li>Imagina que quieres saber qué tanto espacio cubre una alfombra. El metro cuadrado es como decir cuánto cubriría una alfombra grande en una habitación. Las pulgadas cuadradas o pies cuadrados son para cosas más pequeñas, como medir una baldosa. </li>
+                    <img src="imganes1/area.jfif" alt="tabla de conversiones" title="tabla de conversiones">
+                </ul>
+            </li>
+            <li>Volumen
+                <ul>
+                    <li>Es como saber cuánta agua cabe en una botella. El metro cúbico es un espacio grande, como una piscina pequeña, mientras que el litro es una medida más pequeña, como una botella de refresco.</li>
+                    <img src="imganes1/volumen.jfif" alt="tabla de conversiones" title="tabla de conversiones"> 
+                </ul>
+            </li>
+            <li>Velocidad
+                <ul>
+                    <li>Mide qué tan rápido algo se mueve. Por ejemplo, la velocidad de un coche se mide en kilómetros por hora (km/h), como decir "este coche va a 60 km/h". También se puede medir en metros por segundo (m/s), que es como ver qué tan rápido corres en un segundo. </li>
+                    <img src="imganes1/velocidad.jfif" alt="tabla de conversiones" title="tabla de conversiones">
+                </ul>
+            </li>
+            <li>Fuerza
+                <ul>
+                    <li>Piensa en empujar una caja pesada. La cantidad de esfuerzo que pones para moverla es la fuerza. Un Newton es una forma de medir esa fuerza, como si dijeras cuánta fuerza usas para levantar algo. </li>
+                    <img src="imganes1/fuerza.jfif" alt="tabla de conversiones" title="tabla de conversiones">
+                </ul>
+            </li>
+            <li>Potencia
+                <ul>
+                    <li>Es como saber cuánta energía usas para hacer algo rápido o con fuerza, como encender una bombilla. El vatio (W) mide cuánta potencia necesita la bombilla para iluminar, y un caballo de vapor (hp) mide cuánta potencia tiene un motor grande, como el de un coche. </li>
+                    <img src="imganes1/potencia.jfif" alt="tabla de conversiones" title="tabla de conversiones">
+                </ul>
+            </li>
+            <li>Densidad
+                <ul>
+                    <li>Imagina una esponja y una piedra del mismo tamaño. La piedra es mucho más pesada que la esponja, aunque ocupan el mismo espacio. La densidad mide cuánta materia (peso) hay en un espacio determinado. Es como decir que la piedra tiene más "cosas" apretadas que la esponja. </li>
+                    <img src="imganes1/densidad.jfif" alt="tabla de conversiones" title="tabla de conversiones">
+                </ul>
+            </li>
+        </ol>
+
+        <!--preguntas-->
+        <p>Ahora que ya entendemos bien cómo funcionan las conversiones y hemos visto algunos ejemplos, vamos a poner en práctica lo que hemos aprendido. Les haré algunas preguntas abiertas para que reflexionen y utilicen lo que acabamos de ver.</p>
+        <!--pregunta 1-->
+        <div class="espacio_pregunta">
+            <h3>1. ¿Cuántos milímetros hay en un metro?</h3>
+            <input type="text" id="respuesta" placeholder="Escribe tu respuesta aquí">
+            <button onclick="verificarRespuesta1()">Verificar</button>
+            <div id="result"></div>
+        </div>
+        <!--pregunta 2-->
+        <div class="espacio_pregunta">
+            <h3>2. Si tienes 10 pies, ¿cuántos metros son?</h3>
+            <input type="text" id="respuesta2" placeholder="Escribe tu respuesta aquí">
+            <button onclick="verificarRespuesta2()">Verificar</button>
+            <div id="result2"></div>
+        </div>
+        <!--pregunta 3-->
+        <div class="espacio_pregunta">
+            <h3>3. ¿Cuántos segundos hay en 2 horas?</h3>
+            <input type="text" id="respuesta3" placeholder="Escribe tu respuesta aquí">
+            <button onclick="verificarRespuesta3()">Verificar</button>
+            <div id="result3"></div>
+        </div>
+        <!--pregunta 4-->
+        <div class="espacio_pregunta">
+            <h3>4. ¿Cuántos metros cuadrados hay en un hectárea?</h3>
+            <input type="text" id="respuesta4" placeholder="Escribe tu respuesta aquí">
+            <button onclick="verificarRespuesta4()">Verificar</button>
+            <div id="result4"></div>
+        </div>
+        <!--pregunta 5-->
+        <div class="espacio_pregunta">
+            <h3>5. ¿Cuántos litros hay en un metro cúbico?</h3>
+            <input type="text" id="respuesta5" placeholder="Escribe tu respuesta aquí">
+            <button onclick="verificarRespuesta5()">Verificar</button>
+            <div id="result5"></div>
+        </div>
+        <!--pregunta 6-->
+        <div class="espacio_pregunta">
+            <h3>6. Si un coche viaja a 90 kilómetros por hora, ¿cuál es su velocidad en metros por segundo?</h3>
+            <input type="text" id="respuesta6" placeholder="Escribe tu respuesta aquí">
+            <button onclick="verificarRespuesta6()">Verificar</button>
+            <div id="result6"></div>
+        </div>
+        <!--pregunta 7-->
+        <div class="espacio_pregunta">
+            <h3>7. ¿Cuántos newtons hay en un kilogramo-fuerza?</h3>
+            <input type="text" id="respuesta7" placeholder="Escribe tu respuesta aquí">
+            <button onclick="verificarRespuesta7()">Verificar</button>
+            <div id="result7"></div>
+        </div>
+        <!--pregunta 8-->
+        <div class="espacio_pregunta">
+            <h3>8. ¿Cuántos vatios hay en un caballo de fuerza (hp)?</h3>
+            <input type="text" id="respuesta8" placeholder="Escribe tu respuesta aquí">
+            <button onclick="verificarRespuesta8()">Verificar</button>
+            <div id="result8"></div>
+        </div>
+        <!--pregunta 9-->
+        <div class="espacio_pregunta">
+            <h3>9. ¿Cuál es la densidad de un material que tiene una masa de 500 gramos y un volumen de 250 cm³?</h3>
+            <input type="text" id="respuesta9" placeholder="Escribe tu respuesta aquí">
+            <button onclick="verificarRespuesta9()">Verificar</button>
+            <div id="result9"></div>
+        </div>
+        <!--pregunta 10-->
+        <div class="espacio_pregunta">
+            <h3>10. Si un objeto tiene una longitud de 5 metros, ¿cuántos centímetros mide?</h3>
+            <input type="text" id="respuesta10" placeholder="Escribe tu respuesta aquí">
+            <button onclick="verificarRespuesta10()">Verificar</button>
+            <div id="result10"></div>
+        </div><!--pregunta 10-->
+        <script src="conversión.js"></script>
+        <!--conclusión-->
+        <p>Ya para finalizar talvez te estaras preguntando ¿Cómo aplicamos esto en la vida Cotidiana?. Bueno pues las conversiones están presentes en actividades diarias: cuando cocinamos, convertimos gramos a cucharadas o litros a tazas. Al viajar, cambiamos millas por kilómetros, y en la tecnología, convertimos bytes en megabytes. Entender cómo funciona este proceso no solo nos ayuda en la escuela, sino también en situaciones prácticas.</p>
+        <h3>Ejemplo Sencillo:</h3>
+        <p>Si un videojuego indica que la velocidad de un personaje es de 10 pies por segundo, pero tú quieres saber cuánto es en metros por segundo, puedes hacer la conversión para entender mejor las dinámicas del juego.</p>
+        <p>En conclusión entender las unidades de medida y cómo convertirlas nos permite comunicar información precisa y hacer cálculos más fácilmente. Ya sea en ciencia, tecnología o en la vida cotidiana, dominar estas habilidades nos da una ventaja para resolver problemas de forma clara y rápida.</p>
+        <p>Este enfoque no solo mejora la comprensión del tema, sino que también muestra cómo estas conversiones se aplican a nuestra vida diaria, lo que hace el aprendizaje más interesante y significativo.</p>
+        <div class="contenedor-botones">
+            <a href="../Fuerza/C_fuerza.html" class="boton">Siguiente Tema</a>
+        </div>
+    </div>
+</body>
+</html>
